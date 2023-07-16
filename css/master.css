@@ -274,7 +274,14 @@ header nav .form {
         display: none;
     }
 }
-
+@media (max-width: 767px) {
+  .landing .text {
+    width: 100%;
+  }
+  .landing .text .content {
+    max-width: 100%;
+  }
+}
 .landing .bullets {
     position: absolute;
     left: 50%;
